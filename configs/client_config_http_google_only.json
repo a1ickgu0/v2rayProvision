@@ -1,19 +1,19 @@
 {
 	"log": {
-		"access": "/var/log/v2ray/access.log", 
-		"error": "/var/log/v2ray/error.log", 
+		"access": "/var/log/v2ray/access.log",
+		"error": "/var/log/v2ray/error.log",
 		"loglevel": "warning"
-	}, 
+	},
 	"inbound": {
-		"port": 1080, 
-		"listen": "192.168.204.34",
+		"port": 1080,
+		"listen": "192.168.1.34",
 		"timeout": 0,
 		"protocol": "http",
 		"settings": {
 		}
 	},
 	"outbound": {
-		"protocol": "blackhole", 
+		"protocol": "blackhole",
 		"settings": {}
 	},
 	"outboundDetour": [
@@ -23,12 +23,12 @@
 		"tag": "blocked"
 	},
 	{
-	"protocol": "vmess", 
+	"protocol": "vmess",
 		"settings": {
 			"vnext": [
 			{
 				"address": "192.18.2.12",
-				"port": 102934, 
+				"port": 102934,
 				"users": [
 				{
 					"id": "adfsfd-fb80-4e14-23232-23232323",

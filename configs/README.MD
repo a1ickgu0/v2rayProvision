@@ -1,6 +1,8 @@
 
-# Client ¶ËÅäÖÃ
-* client\_config\_http\_google\_only.json, Ö»·ÅĞĞÄÚÍø 192.168.0.0/24 ¶Ô Google µÄ·ÃÎÊ.
 
-# Server ¶ËÅäÖÃ
+# Client é…ç½®
+* client\_config\_http\_google\_only.json, é™åˆ¶åªæœ‰ Ö»192.168.0.0/24 ç½‘æ®µè®¿é—® Google
 
+
+# Server é…ç½®
+* server\_config.json, æœåŠ¡å™¨ç¼ºçœé…ç½®
